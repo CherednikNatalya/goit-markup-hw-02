@@ -7,6 +7,8 @@
 
 .body {
   font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+
 }
 
 ul {
@@ -32,12 +34,17 @@ ul {
 
 
 /* <!-- ---header--- --> */
-.header-text {
-    font-family: 'Raleway';
-font-weight: 700;
+.header-text-first,
+ .header-text {
+  font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
+color: #000000;
+
+}
+
+.header-text {
 color: var(--accent-color);
 }
 
@@ -45,8 +52,6 @@ color: var(--accent-color);
 color: #000000;
 }
 
-.header-list {
-}
 .header-item,
 .header-mail {
   font-weight: 500;
@@ -55,17 +60,24 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-title-color);
 }
+
+.current {
+  color: var(--accent-color);
+}
+
 .header-link:hover,
 .header-link:focus,
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
-.header-tel:focus {
+.header-tel:focus,
+.button-item:hover,
+.button-item:focus,
+.hero-button:hover,
+.hero-button:focus  {
   color: var(--accent-color);
 }
 
-.header-link {
-}
 .header-mail {
 color: var(--second-title-color)
 }
@@ -101,16 +113,14 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 }
 
+
+
 /* <!-- ---benefits--- --> */
 
 .benefits {
-  background: #E5E5E5;
+  
 }
 
-.benefits-list {
-}
-.benefits-item {
-}
 .benefits-item-tetle
 .benefits-text {
   font-size: 14px;
@@ -136,11 +146,6 @@ letter-spacing: 0.03em;
 color: var(--main-title-color);
 }
 
-.work-list {
-}
-.work-item {
-}
-
 /* <!-- ---team--- --> */
 
 .team {
@@ -153,11 +158,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-title-color);
 }
-.team-list {
-}
-.team-item {
-  
-}
+
 .team-caption,
 .team-text {
 font-weight: 500;
@@ -177,8 +178,7 @@ color: var(--second-title-color);
 .footer {
   background: #2F303A;
 }
-.footer-link {
-}
+
 .footer-link-map {
 color: #FFFFFF;
 font-style: normal;
@@ -191,4 +191,38 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-link:hover,
+.footer-link-map:focus {
+  color: var(--accent-color);
+}
+
+
+
+/* <!-- ---PORTFOLIO--- --> */
+.button-item {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+}
+
+
+.examples-list {
+}
+.examples-item {
+}
+.examples-title {
+  font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--main-title-color);
+}
+.examples-text {
+  font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--second-title-color);
+}
 
