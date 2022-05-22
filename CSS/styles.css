@@ -5,7 +5,7 @@
   --accent-color: #2196F3; 
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
   background-color: #FFFFFF;
 
@@ -36,6 +36,7 @@ ul {
 /* <!-- ---header--- --> */
 .header-text-first,
 .header-text {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -62,6 +63,14 @@ color: var(--main-title-color);
 
 .current {
   color: var(--accent-color);
+}
+
+.header-link {
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
 }
 
 .header-link:hover,
@@ -121,8 +130,7 @@ background-color: #2196F3;
   
 }
 
-.benefits-item-tetle
-.benefits-text {
+.benefits-item-tetle {
   font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
@@ -130,6 +138,10 @@ text-transform: uppercase;
 color: var(--main-title-color);
 }
 .benefits-text {
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 color: var(--second-title-color);
 }
 
@@ -180,11 +192,13 @@ color: var(--second-title-color);
 }
 
 .footer-link-map {
+   font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 color: #FFFFFF;
 font-style: normal;
 }
-.footer-link,
-.footer-link-map {
+.footer-link {
   font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -214,7 +228,7 @@ color: #FFFFFF;
 
 /* <!-- ---PORTFOLIO--- --> */
 .button-item {
-  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
